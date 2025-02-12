@@ -27,8 +27,13 @@ We handle any integrity issues and cleaning by removing null values, missing val
 We use visualization on the data columns to understand and visualize the dataset and their correlation.
 
 ![Image](https://github.com/user-attachments/assets/5ef864a8-c9ce-4862-9485-7ba34a61b3ca)
-
-
+![Image](https://github.com/user-attachments/assets/b35ac072-cb88-45ad-9810-5a0133d8c30e)
+![Image](https://github.com/user-attachments/assets/6f39c388-a66c-4d03-828f-5c4cb41d34f4)
+![Image](https://github.com/user-attachments/assets/cf22deab-a304-45f6-9c4f-790d1e02cd07)
+![Image](https://github.com/user-attachments/assets/5ce05d71-6f58-4555-b4ff-9d284b77fe21)
+![Image](https://github.com/user-attachments/assets/7cd37784-6f43-4eba-ad78-b703b71bb46d)
+![Image](https://github.com/user-attachments/assets/83163000-0763-4ea8-bb11-368d185dc35f)
+![Image](https://github.com/user-attachments/assets/0e683ff8-dcf4-43af-806a-cc429f83e8a5)
 
 
 ## Modeling
