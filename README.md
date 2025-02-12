@@ -1,5 +1,8 @@
 # Vehicles - What drives the price of a car?
 
+Dataset - "C:\Users\mokas\Downloads\data\vehicles.csv"
+Jupyternotebook - 
+
 ## Overview
 In this application, you will explore a dataset from Kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing. Your goal is to understand what factors make a car more or less expensive. As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
 
@@ -13,7 +16,6 @@ Develop a predictive model to estimate used car prices using a diverse set of in
 
 ## Data Understanding
 We use several initial EDA methods to understand the dataset and identify the several problems like missing values, null values, and all issues in the data.
-
 
 ## Data Preparation
 We handle any integrity issues and cleaning by removing null values, missing values, outliers, change dat types,  the engineering of new features, transformations and general preparation for modeling with sklearn.
@@ -38,8 +40,44 @@ We use visualization on the data columns to understand and visualize the dataset
 
 
 ## Modeling
-
 1. Apply PolynomialFeatures for feature expansion.
-2. Use SequentialFeatureSelector to select three important features.
-3. Set up a linear regression model using a pipeline.
-4. Calculate the Mean Squared Error (MSE) between the training and test datasets.
+2. Baseline prediction
+3. SequentialFeatureSelector to select the important features
+4. Setup regression using pipeline and Make predictions on the test set with the best features selected
+5. Calculate the Mean Squared Error (MSE) between the training and test datasets.
+
+## Evaluation
+Using the polynomial features and Sequential Feature Selector to select the important features, the MSE is slightly lower on the test set but the RMSE values based on the predictions are off by about 0.92-0.94 units. Used RandomForestRegressor that produced a better outcome of R2 Score: 0.9364 for Log scale and R2 Score: 0.9679 for the original scale. The actual results and the predicted results look pretty close making the accuracy of the model pretty good. 
+
+## Deployment
+### 1. Executive Summary
+In this report, we provide data-driven insights that can help used car dealers optimize their inventory selection and pricing strategies. By analyzing key variables such as car make, model, odometer, condition, and price, we uncover trends that will allow you to make informed decisions to meet customer expectation and maximize profitability.
+
+### 2. Objective
+The primary goal of this analysis is to help your business:
+
+  a. Set competitive prices that attract buyers 
+  b. Leverage key data patterns to make informed business decisions
+
+### 3. Methodology
+To derive actionable insights, we analyzed historical data from used car sales, including variables like:
+
+  a. Car Make and Model
+  b. Odometer
+  c. Year of Manufacture
+  c. Price
+  d. Condition
+  e. Make
+
+Our approach involved several data analysis techniques, including:
+
+  a. Exploratory Data Analysis (EDA): To identify trends, correlations, and outliers.
+  b. Price Analysis: To establish pricing patterns based on car attributes.
+  c. Price Forecasting: To predict the price for most in-demand makes and models
+
+### 4. Key Findings
+Several key factor influence the price of the car. Our findings indicate that from a customer's point of view typically they value the odometer reading, year, model, and condition of the car to agree to a price point for buying a car.
+
+### 6. Conclusion
+By utilizing the insights gained from this analysis, used car dealers can strategically adjust the inventory, set optimal prices, and better meet customer demand. The key is to stay agile and monitor trends to fine-tune your offerings continuously
+
