@@ -1,7 +1,8 @@
 # Vehicles - What drives the price of a car?
 
-Dataset - "C:\Users\mokas\Downloads\data\vehicles.csv"
-Jupyternotebook - 
+Code - https://github.com/meenamurali2m/Vehicles/blob/main/prompt_II_MM.ipynb
+
+Dataset - vehicles.csv
 
 ## Overview
 In this application, you will explore a dataset from Kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing. Your goal is to understand what factors make a car more or less expensive. As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
