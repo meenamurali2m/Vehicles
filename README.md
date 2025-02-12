@@ -24,7 +24,8 @@ We handle any integrity issues and cleaning by removing null values, missing val
 ## Visualization
 We use visualization on the data columns to understand and visualize the dataset and their correlation.
 ![Vehicles Price](images/vehicles_price.png)
- 
+http://localhost:8889/lab/tree/images/vehicles_price.jpg
+
 ## Modeling
 
 1. Apply PolynomialFeatures for feature expansion.
