@@ -6,6 +6,8 @@ In this application, you will explore a dataset from Kaggle. The original datase
 ## CRISP-DM Framework
 To frame the task, throughout our practical applications, we will refer back to a standard process in industry for data projects called CRISP-DM. This process provides a framework for working through a data problem. Your first step in this application will be to read through a brief overview of CRISP-DM here. After reading the overview, answer the questions below.
 
+<img width="374" alt="Image" src="https://github.com/user-attachments/assets/c3c24617-5f6e-4fc7-a9d7-0a7569beec56" />
+
 ## Business Understanding
 Develop a predictive model to estimate used car prices using a diverse set of independent variables (features) such as make, model, year, mileage, condition, and other relevant attributes. Perform feature selection and importance analysis to identify the most significant factors influencing price variations. Utilize techniques like correlation analysis, feature importance ranking, and possibly dimensionality reduction methods to determine the key drivers of used car prices. The model's performance will be evaluated using appropriate regression metrics, and the results will be interpreted to provide actionable insights for the business.
 
