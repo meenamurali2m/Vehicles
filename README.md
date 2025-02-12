@@ -14,6 +14,7 @@ Develop a predictive model to estimate used car prices using a diverse set of in
 ## Data Understanding
 We use several initial EDA methods to understand the dataset and identify the several problems like missing values, null values, and all issues in the data.
 
+
 ## Data Preparation
 We handle any integrity issues and cleaning by removing null values, missing values, outliers, change dat types,  the engineering of new features, transformations and general preparation for modeling with sklearn.
 1. Delete redundant columns
@@ -33,7 +34,7 @@ We use visualization on the data columns to understand and visualize the dataset
 ![Image](https://github.com/user-attachments/assets/5ce05d71-6f58-4555-b4ff-9d284b77fe21)
 ![Image](https://github.com/user-attachments/assets/7cd37784-6f43-4eba-ad78-b703b71bb46d)
 ![Image](https://github.com/user-attachments/assets/83163000-0763-4ea8-bb11-368d185dc35f)
-![Image](https://github.com/user-attachments/assets/0e683ff8-dcf4-43af-806a-cc429f83e8a5)
+
 
 
 ## Modeling
