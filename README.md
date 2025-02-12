@@ -23,8 +23,9 @@ We handle any integrity issues and cleaning by removing null values, missing val
 
 ## Visualization
 We use visualization on the data columns to understand and visualize the dataset and their correlation.
-![Vehicles Price](images/vehicles_price.png)
-http://localhost:8889/lab/tree/images/vehicles_price.jpg
+
+
+![image](https://github.com/user-attachments/assets/d0c6f39a-b0d1-42d5-a778-2d63312c2064)
 
 ## Modeling
 
