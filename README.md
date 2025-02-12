@@ -24,7 +24,8 @@ We handle any integrity issues and cleaning by removing null values, missing val
 ## Visualization
 We use visualization on the data columns to understand and visualize the dataset and their correlation.
 
-![Image](https://github.com/user-attachments/assets/64a87ee7-98e2-4ac4-a221-138a28b17185)
+![Image](https://github.com/user-attachments/assets/6e6981f8-8a3d-4d44-91e2-c88a117dae88)
+
 
 
 
